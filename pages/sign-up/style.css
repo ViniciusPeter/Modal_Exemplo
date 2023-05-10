@@ -1,0 +1,35 @@
+@import url(../../css/global.css);
+@import url(../../css/button.css);
+@import url(../../css/input.css);
+@import url(../../css/form.css);
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-width: 1440px;
+    min-height: 900px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 100%;
+}
+
+section img{
+    width: 100%;
+}
+
+section > p{
+    margin-top: 96px;
+}
+
+section > p a {
+    color: rgba(25, 114, 168, 1);
+}

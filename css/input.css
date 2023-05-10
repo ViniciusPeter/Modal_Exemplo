@@ -1,0 +1,21 @@
+/* @import url(./global.css); */
+
+.input{
+    width: 476px;
+    height: 51px;
+
+    padding-left: 16px;
+
+    border: 1px solid rgba(232, 232, 232, 1);
+
+    background-color: rgba(253, 250, 250, 1);
+    color: rgba(150, 139, 139, 1);
+
+    font-size: 1rem;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18.75px;
+}
+.input:focus{
+    border: 2px solid rgb(149, 149, 241);
+}

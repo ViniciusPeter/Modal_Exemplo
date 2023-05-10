@@ -1,0 +1,36 @@
+/* @import url(./global.css); */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.form h1, h2{
+    font-weight: 700;
+} 
+
+.form  h1{
+    margin: 9px 0 32px 0;
+
+    font-size: 32px;
+}
+
+.form  h2{
+    margin-bottom: 40px;
+
+    font-size: 24px;
+}
+
+.form input{
+    margin-top: 16px;
+}
+
+.form .btn-green{
+    margin-top: 72px;
+}
+
+.form .btn-red{
+    margin-top: 8px;
+}

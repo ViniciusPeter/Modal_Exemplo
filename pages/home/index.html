@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <span>KONTACTS</span>
+        <img class="logout" src="../../assets/sair.png" alt="imagem deslogar">
+    </header>
+    <main>
+
+        <button class="btn-green btn-add">Adicionar</button>
+
+        <div class="content-table">
+            <div class="line-head-table">
+                <div class="row-head-table">Nome</div>
+                <div class="row-head-table">Email</div>
+                <div class="row-head-table">Telefone</div>
+                <div class="row-head-table delete"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">Claudia M. Sousa</div>
+                <div class="row-table">claudia@teste.com.br</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">João Santos</div>
+                <div class="row-table">joao@teste.com.br</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">Pedro Henrique</div>
+                <div class="row-table">pedro.henrque@teste.com.br</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">Marina Tavares</div>
+                <div class="row-table">marina_tavares@teste.com.br</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">Daniel Lopes</div>
+                <div class="row-table">daniel.lopes@cubos.academy</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+            <div class="line-table">
+                <div class="row-table">Guido Cerqueira</div>
+                <div class="row-table">guido.cerqueira@cubos.academy</div>
+                <div class="row-table">(99)9999-9999</div>
+                <div class="row-table delete"><img src="../../assets/Group.png" alt="apagar"></div>
+            </div>
+        </div>
+
+        <div class="mask "></div>
+
+        <div class="modal-delete ">
+            <img src="../../assets/fechar.png" alt="fechar">
+            <h2>Confirma a exclusão?</h2>
+            <p>Deseja excluir o contato?</p>
+            <button class="btn-green">Excluir</button>
+            <button class="btn-red">Cancelar</button>
+        </div>
+
+        <div class="modal-new-contact ">
+            <img src="../../assets/fechar.png" alt="fechar">
+            <h2>Novo Contato</h2>
+            <input id="input-name" class="input" type="text" placeholder="Nome">
+            <input id="input-email" class="input" type="email" placeholder="E-mail">
+            <input id="input-telefone" class="input" type="text" placeholder="Telefone">
+   
+            <button class="btn-green btn-add-confirm">Adicionar</button>
+            <button class="btn-red">Cancelar</button>
+        </div>
+
+    </main>
+</body>
+
+</html>

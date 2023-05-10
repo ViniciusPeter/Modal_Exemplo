@@ -1,0 +1,48 @@
+/* @import url(./global.css); */
+
+.btn-green,
+.btn-red{
+    all: unset;
+
+    width: 100%;
+    height: 51px;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+    padding: 3px;
+    
+    text-align: center;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    border-radius: 8px;
+}
+
+.btn-green{
+    background-color: rgba(4, 196, 92, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-green:hover{
+   background-color: rgba(0, 155, 72, 1);
+}
+
+.btn-green:active{
+    background-color: rgba(4, 196, 92, 0.9);
+}
+
+.btn-red{
+    background-color: rgba(251, 6, 21, 0.65);
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-red:hover{
+    background-color: rgba(251, 6, 21, 0.8);
+ }
+ 
+ .btn-red:active{
+     background-color: rgba(251, 6, 21, 0.5);
+ }
+ 

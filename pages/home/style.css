@@ -1,0 +1,227 @@
+@import url(../../css/global.css);
+@import url(../../css/button.css);
+@import url(../../css/input.css);
+@import url(../../css/form.css);
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    width: 1440px;
+    min-width: 1440px;
+    min-height: 900px;
+
+    padding-left: 248px;
+}
+
+main > .btn-green{
+    width: 237px;
+    height: 51px;
+
+    margin: 102px 0px 42px 0px;
+}
+
+.content-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 956px;
+    min-width: 956px;
+}
+
+.line-head-table,
+.line-table{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    height: 46px;
+    width: 100%;
+
+    padding: 16px 32px;
+}
+
+.line-head-table{
+    background-color: rgba(244, 240, 240, 1);
+
+    margin-bottom: 24px;
+
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.line-table{
+    background-color: #FFFAFA;
+
+    margin: 8px 0;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    color: rgba(28, 20, 20, 0.79);
+}
+
+.row-head-table,
+.row-table{
+    display: flex;
+    flex: 4;
+}
+
+
+.row-head-table.delete,
+.row-table.delete{
+    display: flex;
+    justify-content: end;
+    flex:  1;
+}
+
+.row-table.delete img{
+    cursor: pointer;
+}
+
+.mask{
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(16, 15, 15, 0.56);
+
+    opacity: 0;
+
+    z-index: -10;
+
+    display: none;
+}
+
+.modal-new-contact,
+.modal-delete{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+
+    position: fixed;
+    top: 0;
+ 
+    background-color: #FFFDFD;
+
+    opacity: 0;
+
+    z-index: -15;
+}
+
+.modal-delete{
+    width: 476px;
+    height: 319px;
+
+    padding: 56px;
+}
+
+.modal-new-contact h2,
+.modal-delete h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.modal-delete p{
+   margin: 24px 0 31px 0;
+
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 16.41px;   
+}
+
+.modal-delete .btn-green, 
+.modal-delete .btn-red{
+    width: 366px;
+    height: 50px;
+
+   margin-bottom: 8px;
+}
+
+.modal-new-contact img,
+.modal-delete img{
+    width: 16px;
+    height: 16px;
+
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    cursor: pointer;
+}
+
+.modal-new-contact{
+    width: 476px;
+    height: 563px;
+
+    position: fixed;
+    top: 0;
+}
+
+.modal-new-contact h2{
+    margin-bottom: 40px;
+}
+
+.modal-new-contact .input,
+.modal-new-contact .btn-green,
+.modal-new-contact .btn-red{
+    width: 364px;
+    height: 50px;
+}
+
+.modal-new-contact .input{
+    margin-bottom: 17px;
+}
+
+.modal-new-contact .btn-green{
+    margin: 72px 0 8px 0;
+}
+
+.modal-new-contact .btn-red{
+    margin-bottom: 35px;
+}
+
+.show-mask{
+    opacity: 1;
+
+    display: flex;
+
+    z-index: 10;
+
+    /* pointer-events: none; */
+}
+
+.show-modal-delete{
+    top: 261px;
+    left: 482px;
+    opacity: 1;
+
+    display: flex;
+
+    z-index: 15;
+
+    /* pointer-events: none; */
+}
+
+.show-modal-add{
+    top: 187px;
+    left: 500px;
+    opacity: 1;
+
+    display: flex;
+
+    z-index: 15;
+    /* pointer-events: none; */
+}
